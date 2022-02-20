@@ -1,0 +1,22 @@
+.body{
+    height: 800px;
+    width: 100vw;
+}
+.banner{
+    border-top: 0.1px solid black;
+    border-bottom: 0.1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body > img{
+    width: 100vw;
+    height: auto;
+}
+.banner > img{
+    height: 80px;
+    object-fit: contain;
+}
+.span{
+text-align: center;
+}

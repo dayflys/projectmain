@@ -1,0 +1,63 @@
+.body{
+    padding:0;
+    margin:0;
+}
+.banner{
+    padding: 0px 45px 0px 43px;
+    border-top: 0.1px solid black;
+    border-bottom: 0.1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-box{
+    width: 100vw;
+    height: auto;
+    display: flex;  
+}
+ul{
+    padding: 10px 0 0 0;
+    margin:0;
+    list-style: none;
+    text-align: center;
+    font: 20px large;
+}
+.image-box-in{
+    float: left;
+    width: 49vw;
+    height: 100vh;
+    padding: 15px 5px 15px 5px;
+}
+
+.image-box-img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.price-box{
+    float: left;
+    height: 30px;
+    width: 50vw;
+    border-top: 0.1px solid black;
+    border-bottom: 0.1px solid black;
+    display: flex;
+    text-align: center;
+    border-right: 0.1px solid black;
+}
+.list-pro > img{
+    width: 500px;
+    height: 386px;
+}
+.price-box-in{
+    float: left;
+    height: 30px;
+    width: 48vw;
+    border-top: 0.1px solid black;
+    border-bottom: 0.1px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+   margin:0;
+}
